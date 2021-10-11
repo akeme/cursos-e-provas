@@ -1,2 +1,8 @@
 node_modules
 grades-control-api.log
+
+transcricoes/*json
+.ipynb_checkpoints/
+config/config.yaml
+config/config_example copy.yaml
+apresentação/~$*
