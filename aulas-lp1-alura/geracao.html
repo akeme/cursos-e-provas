@@ -1,0 +1,18 @@
+<meta charset="UTF-8">
+<script>
+  var ano = 2021;
+  function pulaLinha(){
+    document.write("<br>");
+  }
+
+  function mostra(mensagem){
+    document.write(mensagem);
+    pulaLinha();
+  }
+  var idadeMediaFilhos = 28;
+  qtdGeracoes= (ano - 1500)/idadeMediaFilhos;
+
+  mostra("A quantidade de gerações é: " + Math.round(qtdGeracoes));
+
+
+</script>
